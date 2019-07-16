@@ -1,0 +1,10 @@
+
+<app-add-todo (addTodo)="addTodo($event)"></app-add-todo>
+<!-- Loop through the array of todos in the "todos.component.ts" file for them to show -->
+
+<app-todo-item 
+    *ngFor="let todo of todos"
+    [todo]="todo"
+    (deleteTodo)="deleteTodo($event)"
+    >
+</app-todo-item>

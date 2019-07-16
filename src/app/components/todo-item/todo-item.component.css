@@ -1,0 +1,9 @@
+.del {
+    color:#fff;
+    border-radius: 50%;
+    float:right;
+    background:red;
+}
+.is-complete{
+    text-decoration: line-through;
+}
